@@ -1,6 +1,6 @@
 {
   "name": "@answell/sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Answell SDK for JavaScript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/AnswellAI/answell-js/issues"
   },
-  "homepage": "https://github.com/AnswellAI/answell-js#readme",
+  "homepage": "https://answell.app",
   "devDependencies": {
     "@hey-api/openapi-ts": "^0.99.0",
     "tsup": "^8.5.1",
