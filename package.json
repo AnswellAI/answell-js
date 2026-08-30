@@ -1,0 +1,36 @@
+{
+  "name": "@answell/sdk",
+  "version": "0.1.0",
+  "description": "Answell SDK for JavaScript",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "generate": "openapi-ts",
+    "build": "npm run generate && tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnswellAI/answell-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnswellAI/answell-js/issues"
+  },
+  "homepage": "https://github.com/AnswellAI/answell-js#readme",
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.99.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
