@@ -1,6 +1,6 @@
 {
   "name": "@answell/sdk",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Answell SDK for JavaScript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -21,7 +21,7 @@
     "url": "git+https://github.com/AnswellAI/answell-js.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Answell",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
