@@ -9,7 +9,7 @@ export class AnswellClient {
         }
 
         client.setConfig({
-            baseUrl: 'https://api.answell.app/v1',
+            baseUrl: 'https://app.answell.app/api/v1',
             headers: {
                 Authorization: `Bearer ${apiKey}`
             }
