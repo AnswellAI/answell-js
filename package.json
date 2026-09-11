@@ -1,6 +1,6 @@
 {
   "name": "@answell/sdk",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Answell SDK for JavaScript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
